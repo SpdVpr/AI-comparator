@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { Star, Check, X, Info } from 'lucide-react';
 import Link from 'next/link';
+import { JSX } from 'react';
 
 // Types for table data
 type FeatureValue = boolean | string | number | null;

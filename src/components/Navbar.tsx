@@ -80,7 +80,7 @@ export default function Navbar() {
           
           {/* CTA Button */}
           <Link
-            href="/comparisons/ai-chatbots-assistants"
+            href="/comparisons/ai-tools"
             className="ml-6 bg-indigo-500 text-white py-2 px-4 rounded-full hover:bg-indigo-600 transition"
           >
             Compare AI Tools
@@ -135,7 +135,7 @@ export default function Navbar() {
             
             {/* CTA Button in mobile menu */}
             <Link
-              href="/comparisons/ai-chatbots-assistants"
+              href="/comparisons/ai-tools"
               className="bg-indigo-500 text-white py-2 px-4 rounded-xl text-center hover:bg-indigo-600 transition mt-2"
               onClick={() => setIsOpen(false)}
             >
