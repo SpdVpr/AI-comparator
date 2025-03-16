@@ -18,30 +18,25 @@ export default function AiCategories() {
   return (
     <section className="py-16 bg-gradient-to-br from-indigo-50 to-white">
       <div className="container mx-auto px-4 text-center">
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="text-4xl font-bold text-gray-800 mb-10"
-        >
+        <motion.h2 
+               >
           🔥 Choose the Best AI by Use Case
         </motion.h2>
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {categories.map(({ icon: Icon, title, link }, index) => (
-            <motion.a
+            <motion.div
               key={index}
-              href={link}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.4, delay: index * 0.1 }}
-              className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow p-4 flex flex-col items-center justify-center"
             >
+              <a href={link} className="flex flex-col items-center justify-center">
               <Icon className="text-indigo-500 mb-2" size={36} strokeWidth={1.5} />
               <span className="font-medium text-gray-700">{title}</span>
-            </motion.a>
+              </a>
+            </motion.div>
           ))}
         </div>
       </div>
