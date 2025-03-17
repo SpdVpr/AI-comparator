@@ -16,27 +16,49 @@ const categories = [
 
 export default function AiCategories() {
   return (
-    <section className="py-16 bg-gradient-to-br from-indigo-50 to-white">
-      <div className="container mx-auto px-4 text-center">
-        <motion.h2 
-               >
+    <section {...{
+      class: "py-16 bg-gradient-to-br from-indigo-50 to-white"
+    }}>
+      <div {...{
+        class: "container mx-auto px-4 text-center"
+      }}>
+        <motion.h2
+          {...{
+            class: "text-4xl font-bold text-gray-800 mb-10",
+            initial: { opacity: 0, y: 20 },
+            whileInView: { opacity: 1, y: 0 },
+            viewport: { once: true },
+            transition: { duration: 0.6 }
+          }}
+        >
           🔥 Choose the Best AI by Use Case
         </motion.h2>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div {...{
+          class: "grid grid-cols-2 md:grid-cols-4 gap-4"
+        }}>
           {categories.map(({ icon: Icon, title, link }, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.4, delay: index * 0.1 }}
-            >
-              <a href={link} className="flex flex-col items-center justify-center">
-              <Icon className="text-indigo-500 mb-2" size={36} strokeWidth={1.5} />
-              <span className="font-medium text-gray-700">{title}</span>
-              </a>
-            </motion.div>
+            <a href={link}>
+              <motion.div
+                key={index}
+                {...{
+                  class: "bg-white rounded-2xl shadow-md hover:shadow-xl transition-shadow p-4 flex flex-col items-center justify-center",
+                  initial: { opacity: 0, y: 20 },
+                  whileInView: { opacity: 1, y: 0 },
+                  viewport: { once: true },
+                  transition: { duration: 0.4, delay: index * 0.1 }
+                }}
+              >
+              <Icon {...{
+                class: "text-indigo-500 mb-2",
+                size: 36,
+                strokeWidth: 1.5
+              }} />
+              <span {...{
+                class: "font-medium text-gray-700"
+              }}>{title}</span>
+              </motion.div>
+            </a>
           ))}
         </div>
       </div>
