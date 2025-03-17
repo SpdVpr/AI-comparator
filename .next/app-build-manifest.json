@@ -1,85 +1,385 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+    "/_not-found/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/app/_not-found/page-60af2838fcaf6597.js"
     ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
-    ],
-    "/comparisons/ai-for-coding/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/comparisons/ai-for-coding/page.js"
-    ],
-    "/comparisons/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/comparisons/page.js"
-    ],
-    "/comparisons/ai-for-image-generation/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/comparisons/ai-for-image-generation/page.js"
-    ],
-    "/comparisons/ai-for-video-creation/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/comparisons/ai-for-video-creation/page.js"
-    ],
-    "/comparisons/ai-for-voice-generation/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/comparisons/ai-for-voice-generation/page.js"
-    ],
-    "/comparisons/ai-tools/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/comparisons/ai-tools/page.js"
-    ],
-    "/reviews/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/reviews/page.js"
-    ],
-    "/comparisons/ai-writing-tools/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/comparisons/ai-writing-tools/page.js"
-    ],
-    "/comparisons/ai-chatbots-assistants/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/comparisons/ai-chatbots-assistants/page.js"
-    ],
-    "/comparisons/ai-for-business-marketing/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/comparisons/ai-for-business-marketing/page.js"
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/css/82b1a4db76a7d3d7.css",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/app/layout-7e35ecc4238bdbbe.js"
     ],
     "/ai-news/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/ai-news/page.js"
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/app/ai-news/page-192a4d3be9f8da6d.js"
+    ],
+    "/reviews/[slug]/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/app/reviews/[slug]/page-7a6709be60796096.js"
+    ],
+    "/blog/ai-prompt-engineering-images/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/app/blog/ai-prompt-engineering-images/page-b3e42ecc36673ac9.js"
+    ],
+    "/blog/chatgpt-plugins-tutorial/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/app/blog/chatgpt-plugins-tutorial/page-fe482ca0ca6c04eb.js"
+    ],
+    "/categories/ai-for-coding/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/app/categories/ai-for-coding/page-6c96247adef1b2b3.js"
     ],
     "/about/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/about/page.js"
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/app/about/page-08aeea966992b1cc.js"
+    ],
+    "/categories/ai-for-business-marketing/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/app/categories/ai-for-business-marketing/page-7f8087596764a5e0.js"
+    ],
+    "/categories/ai-for-gaming/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/app/categories/ai-for-gaming/page-e12777b72ef13fa6.js"
+    ],
+    "/categories/ai-for-video-creation/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/app/categories/ai-for-video-creation/page-a60a4c63da7a8781.js"
+    ],
+    "/categories/ai-for-education/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/app/categories/ai-for-education/page-7347c6b71993d056.js"
+    ],
+    "/categories/ai-for-image-generation/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/app/categories/ai-for-image-generation/page-49807b6ee9a23611.js"
+    ],
+    "/categories/ai-for-writing/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/app/categories/ai-for-writing/page-b9e67aed42152da2.js"
+    ],
+    "/categories/ai-tools/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5344-4c671f726a353336.js",
+      "static/chunks/app/categories/ai-tools/page-24b7ad78756d4265.js"
+    ],
+    "/categories/ai-for-voice-generation/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/app/categories/ai-for-voice-generation/page-076d4831cd36622e.js"
+    ],
+    "/comparisons/ai-tools/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5344-4c671f726a353336.js",
+      "static/chunks/app/comparisons/ai-tools/page-437691dc90839a0f.js"
+    ],
+    "/comparisons/ai-for-coding/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/5344-4c671f726a353336.js",
+      "static/chunks/app/comparisons/ai-for-coding/page-38a6033336b8332d.js"
+    ],
+    "/categories/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/app/categories/page-241ede46eb43f69e.js"
+    ],
+    "/comparisons/ai-chatbots-assistants/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/5344-4c671f726a353336.js",
+      "static/chunks/app/comparisons/ai-chatbots-assistants/page-6af100d14bcefe30.js"
+    ],
+    "/comparisons/ai-for-education/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/5344-4c671f726a353336.js",
+      "static/chunks/app/comparisons/ai-for-education/page-1058982056e75f6c.js"
+    ],
+    "/comparisons/ai-for-business-marketing/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/5344-4c671f726a353336.js",
+      "static/chunks/app/comparisons/ai-for-business-marketing/page-c3125fac99884711.js"
+    ],
+    "/comparisons/ai-for-video-creation/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/5344-4c671f726a353336.js",
+      "static/chunks/app/comparisons/ai-for-video-creation/page-681a0023233dda9c.js"
+    ],
+    "/comparisons/ai-for-image-generation/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/5344-4c671f726a353336.js",
+      "static/chunks/app/comparisons/ai-for-image-generation/page-abbe53bd5e9be594.js"
+    ],
+    "/comparisons/ai-for-gaming/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/5344-4c671f726a353336.js",
+      "static/chunks/app/comparisons/ai-for-gaming/page-38e7ad83367520ba.js"
+    ],
+    "/comparisons/ai-writing-tools/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/5344-4c671f726a353336.js",
+      "static/chunks/app/comparisons/ai-writing-tools/page-feb78573890aa34e.js"
+    ],
+    "/comparisons/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/app/comparisons/page-5f27be8e39b1f6ee.js"
+    ],
+    "/comparisons/ai-for-voice-generation/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/5344-4c671f726a353336.js",
+      "static/chunks/app/comparisons/ai-for-voice-generation/page-ccd08d645c73ee51.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/6102-8b5f46c9599e5198.js",
+      "static/chunks/app/page-3c350d0f0bbee133.js"
+    ],
+    "/reviews/chatgpt/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/app/reviews/chatgpt/page-126b7ed848075410.js"
     ],
     "/contact/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/contact/page.js"
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/app/contact/page-eea3f2adbb317110.js"
     ],
-    "/_not-found/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+    "/reviews/claude/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/app/reviews/claude/page-e9eae0c9a683029b.js"
+    ],
+    "/reviews/codeium/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/app/reviews/codeium/page-29d3f052344d59dc.js"
+    ],
+    "/reviews/dalle-3/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/app/reviews/dalle-3/page-16af05320d9c0104.js"
+    ],
+    "/reviews/gemini/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/app/reviews/gemini/page-b8c69f280034a4e4.js"
+    ],
+    "/reviews/jasper-ai/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/app/reviews/jasper-ai/page-bc780792ed8a458d.js"
+    ],
+    "/reviews/leonardo-ai/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/app/reviews/leonardo-ai/page-87c40f8110355e9f.js"
+    ],
+    "/reviews/copy-ai/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/app/reviews/copy-ai/page-7258471fb1d6d27b.js"
+    ],
+    "/reviews/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/app/reviews/page-0fcb62c5e6ccc164.js"
+    ],
+    "/reviews/github-copilot/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/app/reviews/github-copilot/page-2c912f17d68a1de4.js"
+    ],
+    "/reviews/midjourney/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/app/reviews/midjourney/page-a0d4fe39b62bd84b.js"
+    ],
+    "/reviews/perplexity/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/app/reviews/perplexity/page-67720e238dbd5122.js"
+    ],
+    "/reviews/replit/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/app/reviews/replit/page-8b4ee6e5576c504a.js"
+    ],
+    "/reviews/writesonic/page": [
+      "static/chunks/webpack-75968c00880fae47.js",
+      "static/chunks/fd9d1056-b8368d25bdd67e9c.js",
+      "static/chunks/2117-91647380d83c5180.js",
+      "static/chunks/main-app-d36a672a6ecaacd1.js",
+      "static/chunks/2972-fed44b9405b1d5ed.js",
+      "static/chunks/5878-6f9bc5c4733a12dd.js",
+      "static/chunks/app/reviews/writesonic/page-9277120985ce90a6.js"
     ]
   }
 }

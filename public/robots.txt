@@ -1,4 +1,9 @@
+# *
 User-agent: *
 Allow: /
 
-Sitemap: https://tvujweb.com/sitemap.xml
+# Host
+Host: https://www.aimodelsrank.com
+
+# Sitemaps
+Sitemap: https://www.aimodelsrank.com/sitemap.xml
