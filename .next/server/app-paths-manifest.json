@@ -1,3 +1,8 @@
 {
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/comparisons/ai-for-video-creation/page": "app/comparisons/ai-for-video-creation/page.js",
+  "/comparisons/ai-for-coding/page": "app/comparisons/ai-for-coding/page.js",
+  "/reviews/[slug]/page": "app/reviews/[slug]/page.js",
+  "/reviews/cursor/page": "app/reviews/cursor/page.js",
+  "/comparisons/ai-tools/page": "app/comparisons/ai-tools/page.js"
 }
