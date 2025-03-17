@@ -146,83 +146,75 @@ export default function TrendingAICategories() {
   };
   
   return (
-    <section className="py-16 bg-gray-50">
-      <div className="container mx-auto px-4">
+    <section {...{ class: "py-16 bg-gray-50" }}>
+      <div {...{ class: "container mx-auto px-4" }}>
         <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          style={{
-            textAlign: 'center',     // text-center
-            marginBottom: '3rem'     // mb-12
+          {...{
+            initial: { opacity: 0, y: 20 },
+            whileInView: { opacity: 1, y: 0 },
+            viewport: { once: true },
+            transition: { duration: 0.5 },
+            class: "text-center mb-12"
           }}
         >
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">🔥 Trending AI Categories</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h2 {...{ class: "text-4xl font-bold text-gray-800 mb-4" }}>🔥 Trending AI Categories</h2>
+          <p {...{ class: "text-xl text-gray-600 max-w-3xl mx-auto" }}>
             Discover the most popular AI tools by category. We've tested and reviewed the best options for your specific needs.
           </p>
         </motion.div>
         
-        <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div {...{ class: "grid md:grid-cols-3 lg:grid-cols-4 gap-8" }}>
           {/* Left side category selection */}
-          <div className="md:col-span-1">
+          <div {...{ class: "md:col-span-1" }}>
             <motion.div 
-              variants={containerVariants}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              style={{
-                backgroundColor: 'white',
-                borderRadius: '0.75rem',
-                boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)'
+              {...{
+                variants: containerVariants,
+                initial: "hidden",
+                whileInView: "visible",
+                viewport: { once: true },
+                class: "bg-white rounded-xl shadow-sm"
               }}
             >
-              <div className="p-4 border-b border-gray-100">
-                <h3 className="font-medium text-gray-700">Popular Categories</h3>
+              <div {...{ class: "p-4 border-b border-gray-100" }}>
+                <h3 {...{ class: "font-medium text-gray-700" }}>Popular Categories</h3>
               </div>
-              <div className="p-2">
+              <div {...{ class: "p-2" }}>
                 {categories.map((category) => (
-                    <motion.div
-  key={category.id}
-  variants={itemVariants}
-  whileTap={{ scale: 0.95 }}
->
-  <button
-    onClick={() => setActiveCategory(category.id)}
-    className={`w-full text-left px-4 py-3 rounded-lg flex items-center transition ${
-      activeCategory === category.id 
-        ? `${category.bgColor} ${category.textColor} font-medium` 
-        : 'hover:bg-gray-50 text-gray-700'
-    }`}
-  >
-    <category.icon size={18} className="mr-3" />
-    <span>{category.title}</span>
-  </button>
-</motion.div>
+                  <motion.div
+                    key={category.id}
+                    {...{
+                      variants: itemVariants,
+                      whileTap: { scale: 0.95 }
+                    }}
+                  >
+                    <button
+                      onClick={() => setActiveCategory(category.id)}
+                      {...{
+                        class: `w-full text-left px-4 py-3 rounded-lg flex items-center transition ${
+                          activeCategory === category.id 
+                            ? `${category.bgColor} ${category.textColor} font-medium` 
+                            : 'hover:bg-gray-50 text-gray-700'
+                        }`
+                      }}
+                    >
+                      <category.icon {...{ size: 18, class: "mr-3" }} />
+                      <span>{category.title}</span>
+                    </button>
+                  </motion.div>
                 ))}
                 
                 <motion.div 
-                  variants={itemVariants}
-                  initial="hidden"
-                  whileInView="visible"
-                  viewport={{ once: true }}
-                  style={{
-                    paddingLeft: '1rem',     // px-4
-                    paddingRight: '1rem',    // px-4
-                    paddingTop: '1rem',      // pt-4
-                    paddingBottom: '0.5rem', // pb-2
-                    marginTop: '0.5rem',     // mt-2
-                    borderTopWidth: '1px',   // border-t
-                    borderColor: '#f3f4f6'   // border-gray-100
+                  {...{
+                    variants: itemVariants,
+                    class: "px-4 pt-4 pb-2 mt-2 border-t border-gray-100"
                   }}
                 >
                   <a 
                     href="/comparisons" 
-                    className="text-indigo-600 text-sm flex items-center hover:text-indigo-800 transition"
+                    {...{ class: "text-indigo-600 text-sm flex items-center hover:text-indigo-800 transition" }}
                   >
                     View all categories
-                    <ChevronRight size={16} className="ml-1" />
+                    <ChevronRight {...{ size: 16, class: "ml-1" }} />
                   </a>
                 </motion.div>
               </div>
@@ -230,50 +222,46 @@ export default function TrendingAICategories() {
           </div>
           
           {/* Right side category details */}
-          <div className="md:col-span-2 lg:col-span-3">
+          <div {...{ class: "md:col-span-2 lg:col-span-3" }}>
             <motion.div 
               key={activeCategory}
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -20 }}
-              transition={{ duration: 0.3 }}
-              style={{
-                padding: '1.5rem',         // p-6
-                borderRadius: '0.75rem',   // rounded-xl
-                boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)', // shadow-sm
-                backgroundColor: activeCategoryData.bgColor,  // dynamická barva pozadí
-                height: '100%'             // h-full
+              {...{
+                initial: { opacity: 0, x: 20 },
+                animate: { opacity: 1, x: 0 },
+                exit: { opacity: 0, x: -20 },
+                transition: { duration: 0.3 },
+                class: `p-6 rounded-xl shadow-sm ${activeCategoryData.bgColor} h-full`
               }}
             >
-              <div className="flex items-center mb-4">
-                <div className={`w-12 h-12 rounded-lg bg-gradient-to-br ${activeCategoryData.color} flex items-center justify-center text-white mr-4`}>
-                  <activeCategoryData.icon size={24} />
+              <div {...{ class: "flex items-center mb-4" }}>
+                <div {...{ class: `w-12 h-12 rounded-lg bg-gradient-to-br ${activeCategoryData.color} flex items-center justify-center text-white mr-4` }}>
+                  <activeCategoryData.icon {...{ size: 24 }} />
                 </div>
                 <div>
-                  <h3 className={`text-2xl font-bold ${activeCategoryData.textColor}`}>
+                  <h3 {...{ class: `text-2xl font-bold ${activeCategoryData.textColor}` }}>
                     {activeCategoryData.title}
                   </h3>
-                  <p className="text-gray-600 text-sm">
+                  <p {...{ class: "text-gray-600 text-sm" }}>
                     {activeCategoryData.count} tools compared
                   </p>
                 </div>
               </div>
               
-              <p className="text-gray-700 mb-6">
+              <p {...{ class: "text-gray-700 mb-6" }}>
                 {activeCategoryData.description}
               </p>
               
-              <div className="mb-6">
-                <h4 className="text-gray-700 font-medium mb-3">Top Tools in This Category:</h4>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+              <div {...{ class: "mb-6" }}>
+                <h4 {...{ class: "text-gray-700 font-medium mb-3" }}>Top Tools in This Category:</h4>
+                <div {...{ class: "grid grid-cols-2 md:grid-cols-4 gap-2" }}>
                   {activeCategoryData.topTools.map((tool, index) => (
                     <div 
                       key={index} 
-                      className="bg-white bg-opacity-70 backdrop-blur-sm rounded-lg px-3 py-2 text-sm text-gray-700 border border-gray-100"
+                      {...{ class: "bg-white bg-opacity-70 backdrop-blur-sm rounded-lg px-3 py-2 text-sm text-gray-700 border border-gray-100" }}
                     >
-                      {index === 0 && <span className="text-amber-500 mr-1">🥇</span>}
-                      {index === 1 && <span className="text-gray-400 mr-1">🥈</span>}
-                      {index === 2 && <span className="text-amber-700 mr-1">🥉</span>}
+                      {index === 0 && <span {...{ class: "text-amber-500 mr-1" }}>🥇</span>}
+                      {index === 1 && <span {...{ class: "text-gray-400 mr-1" }}>🥈</span>}
+                      {index === 2 && <span {...{ class: "text-amber-700 mr-1" }}>🥉</span>}
                       {tool}
                     </div>
                   ))}
@@ -282,10 +270,10 @@ export default function TrendingAICategories() {
               
               <a 
                 href={activeCategoryData.url}
-                className={`inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r ${activeCategoryData.color} text-white hover:shadow-md transition`}
+                {...{ class: `inline-flex items-center px-4 py-2 rounded-full bg-gradient-to-r ${activeCategoryData.color} text-white hover:shadow-md transition` }}
               >
                 Compare All {activeCategoryData.title}
-                <ChevronRight size={18} className="ml-1" />
+                <ChevronRight {...{ size: 18, class: "ml-1" }} />
               </a>
             </motion.div>
           </div>
