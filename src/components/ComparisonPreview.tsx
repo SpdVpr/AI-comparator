@@ -150,12 +150,6 @@ const ComparisonPreview = () => {
                       >
                         Review
                       </Link>
-                      <Link
-                        href={`/comparisons/${tool.id}`}
-                        className="bg-indigo-600 text-white py-1 px-3 rounded-full hover:bg-indigo-700 transition-colors"
-                      >
-                        Details
-                      </Link>
                     </td>
                   </tr>
                 ))}

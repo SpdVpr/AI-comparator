@@ -49,7 +49,7 @@ const categories = [
     borderColor: 'border-pink-200',
     bgColor: 'bg-pink-50',
     count: 6,
-    topTools: ['Midjourney', 'DALL-E 3', 'Stable Diffusion XL', 'Adobe Firefly'],
+    topTools: ['Midjourney', 'DALL-E 3', 'Adobe Firefly', 'Stable Diffusion'],
     url: '/comparisons/ai-for-image-generation'
   },
   {
@@ -63,7 +63,7 @@ const categories = [
     borderColor: 'border-red-200',
     bgColor: 'bg-red-50',
     count: 5,
-    topTools: ['Pictory AI', 'Synthesia', 'Runway ML Gen-3', 'InVideo AI'],
+    topTools: ['OpenAI Sora', 'Runway Gen-2', 'Descript', 'Synthesia'],
     url: '/comparisons/ai-for-video-creation'
   },
   {
@@ -77,7 +77,7 @@ const categories = [
     borderColor: 'border-violet-200',
     bgColor: 'bg-violet-50',
     count: 6,
-    topTools: ['ChatGPT', 'Claude', 'Gemini', 'Perplexity'],
+    topTools: ['Claude 3 (Opus)', 'ChatGPT (GPT-4o)', 'Gemini', 'Perplexity'],
     url: '/comparisons/ai-chatbots-assistants'
   },
   {
@@ -91,7 +91,7 @@ const categories = [
     borderColor: 'border-blue-200',
     bgColor: 'bg-blue-50',
     count: 4,
-    topTools: ['ElevenLabs', 'Play.ht', 'Murf.ai', 'Resemble.ai'],
+    topTools: ['ElevenLabs', 'Resemble AI', 'Play.ht', 'Murf AI'],
     url: '/comparisons/ai-for-voice-generation'
   },
   {
@@ -105,7 +105,7 @@ const categories = [
     borderColor: 'border-amber-200',
     bgColor: 'bg-amber-50',
     count: 4,
-    topTools: ['Jasper AI', 'Surfer AI', 'HubSpot Content Assistant', 'Copysmith'],
+    topTools: ['HubSpot AI', 'Salesforce Einstein', 'Semrush AI', 'Adobe Marketo Engage'],
     url: '/comparisons/ai-for-business-marketing'
   },
   {
@@ -119,7 +119,7 @@ const categories = [
     borderColor: 'border-emerald-200',
     bgColor: 'bg-emerald-50',
     count: 4,
-    topTools: ['Khanmigo', 'Quizlet Q-Chat', 'Duolingo AI Tutor'],
+    topTools: ['Khanmigo', 'Duolingo Max', 'Coursera AI Companion', 'DreamBox Learning'],
     url: '/comparisons/ai-for-education'
   }
 ];
